@@ -74,6 +74,8 @@ st.markdown("""
         border-radius: 5px;
         white-space: pre-wrap;
         font-family: monospace;
+        max-height: 300px;  /* Set a maximum height */
+        overflow-y: auto;   /* Enable vertical scrolling */
     }
     .stButton>button {
         background-color: #4CAF50;
